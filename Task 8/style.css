@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -27,6 +27,7 @@ form {
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #search {
@@ -38,19 +39,7 @@ form {
   font-size: 1.1em;
 }
 
-#submit-btn {
-  width: 35%;
-  background-color: #f7f7f7;
-  border: 0;
-  outline: 0;
-  font-size: 1.1em;
-}
 
-#submit-btn:hover {
-  cursor: pointer;
-  background-color: #000;
-  color: #fff;
-}
 
 /* Tablet */
 @media screen and (min-width: 768px) {

@@ -6,14 +6,14 @@ Pvz.:
   "kebabas" --> 1010101
   "a"       --> 1
 -------------------------------------------------------------------------- */
-
-function skaiciuFunkcija(text: string): number {
-  if (text.length === 0) return 0;
-  let skaicius = "1";
-  for (let i = 1; i < text.length; i++) {
-    skaicius += i % 2 === 0 ? "1" : "0";
-  }
-  return parseInt(skaicius);
+function skaiciuFunkcija(text) {
+    if (text.length === 0)
+        return 0;
+    var skaicius = '1';
+    for (var i = 1; i < text.length; i++) {
+        skaicius += i % 2 === 0 ? '1' : '0';
+    }
+    return parseInt(skaicius);
 }
 console.log(skaiciuFunkcija("labas"));
 console.log(skaiciuFunkcija("kebabas"));
